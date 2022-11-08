@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Велосипеды</title>
+
+	<link rel="stylesheet" href="css/style.min.css?_v=20221108175551">
+</head>
+
+<body>
+	<header class="header">
+	<div class="header__container container">
+
+	</div>
+</header>
+
+	<main class="main">
+		<h1 class="sr-omly">Велосипеды</h1>
+		<section class="characteristics">
+	<h2 class="sr-only">Харрактеристики велосипедов</h2>
+
+	<div class="characteristics__container container">
+		<ul class="characteristics__top characteristics-top">
+			<li class="characteristics-top__item">
+				<button class="characteristics-top__tab characteristics-top__tab--active" type="button" data-filter="">Горный велосипед</button>
+			</li>
+
+			<li class="characteristics-top__item">
+				<button class="characteristics-top__tab" type="button" data-filter="">Женский велосипед</button>
+			</li>
+		</ul>
+
+		<div class="characteristics__wrapper">
+			<div class="characteristics__item characteristics__item--active" data-content="">
+				<div class="characteristics__body">
+					<div class="characteristics__info">
+						<picture class="characteristics__pic">
+							<!-- <source type="image/webp" srcset="images/bicycle-1.webp"> -->
+							<img class="characteristics__img" src="images/bicycle-1.png" alt="Велосипед STELS Navigator 510 HD 26 2022">
+						</picture>
+
+						<div class="characteristics__text">
+							<h3 class="characteristics__title title">Велосипед STELS Navigator 510 HD 26 2022</h3>
+
+							<div class="characteristics__descr">
+								<p>Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+								<p>Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+							</div>
+						</div>
+					</div>
+
+					<h4 class="characteristics__name">Характеристики</h4>
+
+					<ol class="characteristics__list characteristics-list">
+						<li class="characteristics-list__item">Двойной обод</li>
+						<li class="characteristics-list__item">Алюминиевый сплав</li>
+						<li class="characteristics-list__item">Колеса диаметром 26 дюймов</li>
+						<li class="characteristics-list__item">Покрышки 26х1,95"</li>
+					</ol>
+
+					<form class="characteristics__form characteristics-form" action="#">
+						<div class="characteristics-form__item">
+							<label class="characteristics-form__label" for="characteristics">Добавить характеристику</label>
+							<input class="characteristics-form__field" type="text" id="characteristics" name="characteristics" placeholder="Алюминиевый сплав">
+
+							<span class="characteristics-form__error">Минимум 3 символа</span>
+						</div>
+
+						<button class="characteristics-form__btn btn" type="submit">Добавить</button>
+					</form>
+
+					<ul class="characteristics__buttons characteristics-buttons">
+						<li class="characteristics-buttons__item">
+							<button class="characteristics-buttons__btn btn" type="button">Окей</button>
+						</li>
+
+						<li class="characteristics-buttons__item">
+							<button class="characteristics-buttons__btn btn btn--white" type="button">Отмена</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="characteristics__item" data-content="">
+				<div class="characteristics__body">
+					<div class="characteristics__info">
+						<picture class="characteristics__pic">
+							<!-- <source type="image/webp" srcset="images/bicycle-2.webp"> -->
+							<img class="characteristics__img" src="images/bicycle-2.png" alt="Велосипед SCHWINN Traveler women 2022">
+						</picture>
+
+						<div class="characteristics__text">
+							<h3 class="characteristics__title title">Велосипед SCHWINN Traveler women 2022</h3>
+
+							<div class="characteristics__descr">
+								<p>Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.</p>
+								<p>На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+							</div>
+						</div>
+					</div>
+
+					<h4 class="characteristics__name">Характеристики</h4>
+
+					<ol class="characteristics__list characteristics-list">
+						<li class="characteristics-list__item">Стальная рама</li>
+						<li class="characteristics-list__item">Жесткая вилка</li>
+						<li class="characteristics-list__item">Колеса диаметром 24 дюймов</li>
+						<li class="characteristics-list__item">7 скоростей</li>
+					</ol>
+
+					<form class="characteristics__form characteristics-form" action="#">
+						<div class="characteristics-form__item">
+							<label class="characteristics-form__label" for="characteristics">Добавить характеристику</label>
+							<input class="characteristics-form__field" type="text" id="characteristics" name="characteristics" placeholder="Алюминиевый сплав">
+
+							<span class="characteristics-form__error">Минимум 3 символа</span>
+						</div>
+
+						<button class="characteristics-form__btn btn" type="submit">Добавить</button>
+					</form>
+
+					<ul class="characteristics__buttons characteristics-buttons">
+						<li class="characteristics-buttons__item">
+							<button class="characteristics-buttons__btn btn" type="button">Окей</button>
+						</li>
+
+						<li class="characteristics-buttons__item">
+							<button class="characteristics-buttons__btn btn btn--white" type="button">Отмена</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	</main>
+
+	<footer class="footer">
+	<div class="footer__container container">
+
+	</div>
+</footer>
+
+	<script src="js/script.min.js?_v=20221108175551" type="module"></script>
+</body>
+
+</html>
